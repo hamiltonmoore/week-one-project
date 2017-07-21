@@ -70,7 +70,19 @@ nav{
 .img7{
     width: 5px;
 } 
+ 
+ #newsLetterBody {
+    background-image: url("./images/optimized/background-2.jpg"); 
+    background-size: 100%;
+} 
 
-#newsLetterBody {
-    background-image: url("./images/optimized/background-2.jpg");
+form{
+    position: relative;
+    top: 200px;
+    background-color: white;
+}
+
+footer{
+    padding: 2rem;
+    background-color: 
 }
