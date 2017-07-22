@@ -91,3 +91,16 @@ footer{
     width: 100px;
     height: 100px; 
 }  */
+
+/* About section Specific:*/ 
+.firstSection{
+    margin: 20px;
+}
+
+ #roomToGrow{
+    overflow: hidden; 
+    height: 400px;
+  
+} 
+
+
