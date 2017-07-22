@@ -3,12 +3,13 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    font-weight: none;
 }
 
-header{
-    position: fixed;
+ header{
+    /* position: fixed; */
     margin: 0;
-    width: 100%;
+    width: 100%; 
 
 }
 nav{
@@ -37,39 +38,37 @@ nav{
     align-content: center;
 }
 
-.container{
+ /* .container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
-}
+}  */
 
-.img1{
-    margin: .5rem;
-}
-
-.img2{
-    width: 5px;
-}
-
-.img3{
-    width: 5px;
-}
-
-.img4{
-    width: 5px;
-}
-
-.img5{
-    width: 5px;
-}
-
-.img6{
-    width: 5px;
-}
-
-.img7{
-    width: 5px;
+ .imageGroup{
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
 } 
+ .imageHolder30{
+    width: 200px;
+    height: 100px;
+}
+
+.imageHolder50{
+    width: 75px;
+    height: 100px;
+} 
+
+.imageHolder10{
+    width: 40px;
+    height: 100px;
+}  
+
+.imageHolder5{
+    width: 55px;
+    height: 100px;
+}
+
  
  #newsLetterBody {
     background-image: url("./images/optimized/background-2.jpg"); 
@@ -83,6 +82,12 @@ form{
 }
 
 footer{
-    padding: 2rem;
-    background-color: 
+    color: #F2F1E8;
+    padding: 1rem;
+    background-color: #131511;
 }
+
+ /* #img1{
+    width: 100px;
+    height: 100px; 
+}  */
