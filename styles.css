@@ -2,8 +2,8 @@ body{
     background: #F2F1E8;
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
+    color: #131511;
     margin: 0 auto;
-    font-weight: none;
 }
 
  header{
@@ -44,12 +44,12 @@ nav{
     flex-wrap: wrap; 
 }  */
 
- .imageGroup{
+ /* .imageGroup{
     display: flex;
     /* flex-wrap: wrap;
     justify-content: space-between; */
-} 
- .imageHolder30{
+
+ /* .imageHolder30{
     width: 200px;
     height: 100px;
 }
@@ -66,26 +66,28 @@ nav{
 
 .imageHolder5{
     width: 55px;
-    height: 100px;
-}
+    height: 100px; */ 
+
 
  
- #newsLetterBody {
+  #newsLetterBody {
     background-image: url("./images/optimized/background-2.jpg"); 
-    background-size: 100%;
-} 
+    background-size: 100%; 
+}  
 
-form{
-    position: relative;
-    top: 200px;
-    background-color: white;
-}
+  form{
+    top: 500px;
+    background-color: white; 
+    margin-right: 200px;
+    margin-left: 200px;
 
-footer{
+}  
+
+  footer{
     color: #F2F1E8;
-    padding: 1rem;
+    padding: 1rem; 
     background-color: #131511;
-}
+}  
 
  /* #img1{
     width: 100px;
@@ -93,14 +95,123 @@ footer{
 }  */
 
 /* About section Specific:*/ 
-.firstSection{
-    margin: 20px;
+ .firstSection{
+    margin: 160px;
+} 
+.quote{
+    margin: 160px;
+}
+.Facilities{
+    margin: 160px;
+}
+.Table{
+    margin: 160px;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px; 
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 15px;
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 10px;
 }
 
  #roomToGrow{
     overflow: hidden; 
-    height: 400px;
-  
+    height: 400px; 
 } 
+.birdHouseImg{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+/*home*/
+
+.productImages{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.productImages .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.row p{
+    background-color: #2B2F26;
+    color: #F2F1E8;
+    padding: 10px;
+    align-self: flex-end;
+    font-size: 1.4em;
+}
+.box{
+    display: flex;
+    flex: 1;
+    height: 55vh;
+    margin: 5px;
+}
+.sm-box{
+    display: flex;
+    flex: 1;
+    height: 35vh;
+    margin: 5px;
+
+}
+.imageHolder:nth-child(3){
+    flex: 2;
+}
 
 
+#Endless{
+    background-image: url("./images/optimized/product-1.jpg");
+    background-size: cover;
+}
+#Sets{
+    background-image: url("./images/optimized/product-2.jpg");
+    background-size: cover;
+}
+#Textures{
+    background-image: url("./images/optimized/product-3.jpg");
+    background-size: cover;
+}    
+#Teatime{
+    background-image: url("./images/optimized/product-4.jpg");
+    background-size: cover;
+}
+#Jars{
+    background-image: url("./images/optimized/product-5.jpg");
+    background-size: cover;
+}
+#Wasabi{
+    background-image: url("./images/optimized/product-6.jpg");
+    background-size: cover;
+}
+#Sippin{
+    background-image: url("./images/optimized/product-7.jpg");
+    background-size: cover;
+}
+
+/* specific to newsletter*/
+
+input [type=text] {
+    border: none;
+    border-bottom: 2px solid #968772;
+}
+input[type=submit] {
+    padding: 10px;
+    color: white;
+    background-color: #968772;
+    border: none;
+}

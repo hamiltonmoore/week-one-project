@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <title>Newsletter</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
     </head>
+    <div>
     <body id="newsLetterBody">
         <header>
             <nav class="nav-bar">
@@ -20,16 +22,26 @@
             </nav>
         </header>
         <main>
-                <form>
+                <!-- <form>
                     <h2>Sign Up for Our Weekly Newsletter</h2> 
                     <h4>Stay up to date with events, activities, news and specials.</h4>
                     <input type="text" placeholder="Name"></input>
                     <input type="text" placeholder="Email"></input>
                     <input type="submit"></input>
+                </form> -->
+                <form>
+                    <h2>Sign Up for Our Weekly Newsletter</h2> 
+                    <h4>Stay up to date with events, activities, news and specials.</h4>
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="fname">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lname">
+                      <input type="submit"></input>
                 </form>
         </main>
         <footer>
-            <h4>Copyright 2017, Bent Creek Ceramics</h4>
+            <h5>Copyright 2017, Bent Creek Ceramics</h5>
         </footer>
+        </div>
     </body>            
 </html>        
