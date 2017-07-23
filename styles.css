@@ -75,12 +75,17 @@ footer{
     font-size: 16px;
     line-height: 2.5rem;
 }
+/* .Facilities p{
+    font-size: 2rem;
+    font-weight: 200;
+} */
+
 .History{
     margin: 20px 150px;
     font-size: 16px;
     line-height: 2.5rem;
 }
-.Table{
+.table{
     margin: 20px 150px;
     font-size: 16px;
     line-height: 2.5rem;
@@ -96,8 +101,12 @@ h2{
     text-align: center;
     font-weight: 200;
 }
-h4{
+h3{
     font-size: 2rem;
+    font-weight: 200;
+}
+h4{
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 200;
     margin-top: 10px;
@@ -105,7 +114,7 @@ h4{
 
 .roomToGrow {
     background-image: url("./images/optimized/background-3.jpg"); 
-    /* background-size: cover; */
+    background-size: cover; 
     overflow: hidden;
     height: 400px;
     
@@ -118,10 +127,11 @@ h4{
     margin-top: 150px;
 }
 
- /* #roomToGrow{
-    overflow: hidden; 
-    height: 400px; 
-}  */
+
+#monthlyPlans{
+    display: flex;
+    margin-left: 150px;
+}
 .birdHouseImg{
     float: left;
     margin-right: 20px;
@@ -136,9 +146,8 @@ table, thead, {
 tbody {
     border: 1px solid #968772;
 }
+
 /*home*/
-
-
 
 .productImages{
   width: 100%;
