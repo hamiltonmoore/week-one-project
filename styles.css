@@ -37,39 +37,7 @@ nav{
     align-content: center;
 }
 
- /* .container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-}  */
-
- /* .imageGroup{
-    display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
-
- /* .imageHolder30{
-    width: 200px;
-    height: 100px;
-}
-
-.imageHolder50{
-    width: 75px;
-    height: 100px;
-} 
-
-.imageHolder10{
-    width: 40px;
-    height: 100px;
-}  
-
-.imageHolder5{
-    width: 55px;
-    height: 100px; */ 
-
-
- 
-  #newsLetterBody {
+#newsLetterBody {
     background-image: url("./images/optimized/background-2.jpg"); 
     background-size: 100%; 
 }  
@@ -88,12 +56,8 @@ footer{
     background-color: #131511;
 }  
 
- /* #img1{
-    width: 100px;
-    height: 100px; 
-}  */
-
 /* About section Specific:*/ 
+
  .firstSection{
     margin: 20px 150px;
     font-size: 16px;
@@ -139,10 +103,25 @@ h4{
     margin-top: 10px;
 }
 
- #roomToGrow{
+.roomToGrow {
+    background-image: url("./images/optimized/background-3.jpg"); 
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 400px;
+    
+}
+.roomToGrow p {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+    color: #F2F1E8;
+    margin-top: 150px;
+}
+
+ /* #roomToGrow{
     overflow: hidden; 
     height: 400px; 
-} 
+}  */
 .birdHouseImg{
     float: left;
     margin-right: 20px;
@@ -231,8 +210,6 @@ tbody {
 /* specific to newsletter*/
 
 input[type=text], input[type=email] {
-    /* display: flex;
-    justify-content: center; */
     margin-left: 50px;
     font-size: 21px;
     box-sizing: border-box;
