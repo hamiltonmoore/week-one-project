@@ -37,18 +37,31 @@ nav{
     align-content: center;
 }
 
+ a:hover {
+    color: #967343;
+} 
+ a:active {
+    color: #968772;
+}
+
 #newsLetterBody {
     background-image: url("./images/optimized/background-2.jpg"); 
-    background-size: 100%; 
+    background-size: 100%;
+    background-repeat: no-repeat;
 }  
 
 form{
-    top: 500px;
     background-color: white; 
-    margin-right: 200px;
-    margin-left: 200px;
-
-}  
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 180px;
+} 
+#mainForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+} 
 
 footer{
     color: #F2F1E8;
@@ -75,10 +88,6 @@ footer{
     font-size: 16px;
     line-height: 2.5rem;
 }
-/* .Facilities p{
-    font-size: 2rem;
-    font-weight: 200;
-} */
 
 .History{
     margin: 20px 150px;
@@ -100,6 +109,7 @@ h2{
     font-size: 2rem;
     text-align: center;
     font-weight: 200;
+    padding-top: 25px;
 }
 h3{
     font-size: 2rem;
@@ -126,7 +136,9 @@ h4{
     color: #F2F1E8;
     margin-top: 150px;
 }
-
+.shelf{
+    float: right;
+}
 
 #monthlyPlans{
     display: flex;
@@ -137,15 +149,12 @@ h4{
     margin-right: 20px;
     margin-bottom: 20px; 
 }
-table {
+
+table, th, td{
+    border: 1px solid #968772;
     border-collapse: collapse;
 }
-table, thead, {
-    border: 1px solid #968772;
-}
-tbody {
-    border: 1px solid #968772;
-}
+
 
 /*home*/
 
